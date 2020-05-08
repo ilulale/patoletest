@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap');
+
+body{
+    font-family: 'Playfair Display';
+    font-size: 16px;
+    background-color:#f16334;
+}
+
+blog-container{
+    display: grid;  
+    grid-template-columns: 1fr 1fr 10px 740px 10px 1fr 1fr;
+}
+article {  
+    border-radius: 25px;
+    margin: 1em;
+    padding: 1em;
+    grid-column: 4/5;
+    background-color: ivory;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);  
+}
+
+article>h1{
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 38px;
+}
+article>blockquote{
+    color: #f16334;
+    padding: 0;
+    margin-right:50px;
+}
